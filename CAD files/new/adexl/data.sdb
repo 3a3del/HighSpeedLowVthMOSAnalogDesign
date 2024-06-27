@@ -1,0 +1,1238 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>umc13mmrf:t3:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>t3</value>
+					</option>
+					<option>lib
+						<value>umc13mmrf</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>umc13mmrf:t3:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>t3</value>
+					</option>
+					<option>lib
+						<value>umc13mmrf</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>prl
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="1">Iref
+				<value>{From/To}Linear:30m:5m:40m{From/To}</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">L
+				<value>340n</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">R
+				<value>{From/To}Linear:24:2:30{From/To}</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value>                            </value>
+			</plottingoption>
+		</plottingoptions>
+		<allsweepsenabled>1</allsweepsenabled>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.16
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.16</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:10m:5m:30m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:12:2:24{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 17:50:49 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.16.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.16.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_175049805</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.16</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.16</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.16.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.16.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.17
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.17</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:10m:5m:30m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:12:2:24{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 17:55:40 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.17.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.17.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_175541044</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.17</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.17</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.17.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.17.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.18
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.18</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:10m:5m:30m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:12:2:24{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 18:07:49 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.18.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.18.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_180749653</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.18</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.18</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.18.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.18.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.19
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.19</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:10m:5m:30m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:12:2:24{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 18:10:17 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.19.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.19.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_181017078</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.19</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.19</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.19.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.19.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.20
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.20</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:10m:5m:30m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:12:2:24{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 18:10:52 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.20.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.20.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_181052497</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.20</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.20</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.20.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.20.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.21
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.21</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:10m:5m:30m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:12:2:24{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 18:13:30 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.21.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.21.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_181330843</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.21</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.21</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.21.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.21.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.22
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.22</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:10m:5m:30m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:12:2:24{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 18:19:29 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.22.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.22.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_181929516</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.22</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.22</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.22.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.22.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.23
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.23</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:30m:5m:40m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:24:2:30{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 18:24:53 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.23.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.23.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_182453402</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.23</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.23</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.23.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.23.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.24
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.24</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs></outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:30m:5m:40m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:24:2:30{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 18:34:38 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.24.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.24.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_183438204</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.24</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.24</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.24.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.24.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.25
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>umc13mmrf:t3:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>umc13mmrf:t3:1_none_Interactive.25</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>t3</value>
+							</option>
+							<option>lib
+								<value>umc13mmrf</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>prl
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">Iref
+						<value>{From/To}Linear:30m:5m:40m{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">L
+						<value>340n</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">R
+						<value>{From/To}Linear:24:2:30{From/To}</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">umc13mmrf:t3:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Thu May 16 19:02:45 2024
+</timestamp>
+			<resultsname>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.25.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.25.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_190245470</localpsfdir>
+			<psfdir>/home/cadence/simulation/umc13mmrf/t3_1/adexl/results/data/Interactive.25</psfdir>
+			<simdir>$AXL_PROJECT_DIR/umc13mmrf/t3_1/adexl/results/data/Interactive.25</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/my_project/umc13mmrf/t3_1/adexl/results/data/Interactive.25.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.25.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Iref
+						<value></value>
+					</var>
+					<var>R
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

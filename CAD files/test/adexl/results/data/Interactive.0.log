@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 14 13:21:26 2024 
+Best design point: 1
+Design specs: 
+	newTr:test:1	corner	Nominal - 
+	riseTime(VT("/Vout") 0 nil 1 nil 10 90 nil "time")		2.196n
+	fallTime(VT("/Vout") 1 nil 0 nil 90 10 nil "time")		2.196n
+Design parameters: 
+	C		1p
+	L		1k
+	Tclk		20n
+	Tfall		100p
+	Thigh		10n
+	Trise		100p
+	VDD0		1
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Sun Apr 14 13:21:39 2024 

@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu May 16 18:24:53 2024 
+Best design point: 1
+Design specs: 
+	umc13mmrf:t3:1	corner	Nominal - 
+	vpeak		472.2m
+	vmin		-468.9m
+	error		707.7m
+	prl		2.23m
+	pdc		101.9m
+	eff		2.189
+Design parameters: 
+	Iref		30m
+	L		340n
+	R		24
+
+Interactive.23
+Number of points completed: 12
+Number of simulation errors: 0
+Interactive.23 completed. 
+Current time: Thu May 16 18:25:03 2024 

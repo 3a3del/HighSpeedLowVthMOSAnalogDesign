@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed May 15 17:42:52 2024 
+Best design point: 1
+Design specs: 
+	newTr:Task#4:1	corner	Nominal - 
+	MAXOFVOUT		651m
+	LINEARITY/ERROR		24.41
+	gm		109.1m
+	Pdc		38.72m
+	Prl		4.239m
+	EFFY		10.95
+Design parameters: 
+	C		12
+	IREF		10m
+	L		340n
+
+Interactive.27
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.27 completed. 
+Current time: Wed May 15 17:42:58 2024 

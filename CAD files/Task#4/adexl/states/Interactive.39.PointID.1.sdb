@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<setupdb version="5">Interactive
+	<active>Active Setup
+		<vars>
+			<var>IREF
+				<value>10m</value>
+			</var>
+			<var>L
+				<value>340n</value>
+			</var>
+			<var>C
+				<value>10</value>
+			</var>
+		</vars>
+	</active>
+	<history>History</history>
+</setupdb>
