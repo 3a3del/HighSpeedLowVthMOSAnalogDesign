@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the work for the ELC2060 project, which involves the design and analysis of NMOS transistors using a UMC 0.13µm technology. The project is divided into three main tasks, each with specific objectives and requirements.
+This repository contains the work for the ELC2060 project, which involves the design and analysis of MOS transistors using a UMC 0.13µm technology. The project is divided into three main tasks, each with specific objectives and requirements.
 
 ### Task #1: NMOS Transistor Analysis
 **Objective:**
@@ -43,30 +43,13 @@ This repository contains the work for the ELC2060 project, which involves the de
    - Plot the current flowing in the main device.
 4. Calculate efficiency using simulations and compare with theoretical values.
 5. Replace the ideal current source with a current mirror and analyze the impact on linearity.
-
-## Assessment
-- The total grade is 30 points.
-- Maximum group size: 3 students.
-- Deliverables include a detailed PDF report covering all required items.
-- Penalties apply for late submissions and plagiarism.
-
-## Repository Structure
-- `/Task1/`: Contains files and simulations for Task 1.
-- `/Task2/`: Contains files and simulations for Task 2.
-- `/Task3/`: Contains files and simulations for Task 3.
-- `README.md`: This file.
-
-## Submission
-- Submit the final PDF report and ensure all required items are included.
-- Any missing requirement from the final report will be penalized in the final grading.
-- Every day late = (-10%) from the assignment points.
-- Any copied report will take ZERO.
-
----
-
+                    
 ### Notes
 - Make sure to use the PDK of a UMC 0.13µm technology for all tasks.
 - Pay close attention to the specifications and requirements for each task.
 - Ensure all simulations are thoroughly documented and results are clearly presented.
 
-Good luck with your project!
+Good luck!                                                            
+  
+  
+  
